@@ -17,4 +17,8 @@ auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
 
+if __name__ == "__main__":
+    api
+
+
  
